@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo|Helvetica&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lugrasimo', cursive;
+  font-family: 'Helvetica', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(21,0,185,1) 100%);
+}
+.calculator{
+  border: 5px solid #00FF00;
+  padding: 20px;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: 7px 7px 25px rgba(109,125,319,40);
+}
+input{
+  width:310px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  /* background: transparent; */
+  box-shadow: 2px 7px 25px rgba(10, 8, 7, 20);
+  font-size: 50px;
+  text-align: right;
+  cursor: pointer;
+  color: rgba(1, 10, 20, 10.911);
+}
+
+input::placeholder{
+  color: rgba(1, 2, 20, 1.911);
+}
+
+button{
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: #00BFFF;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255,255,255,0.2);
+  cursor: pointer;
+}
+.equalbtn{
+  background-color: rgb(208, 13, 16);
+}
+.operator
+{
+  color: rgb(53, 207, 11);
+  /* background-color: rgb(103, 83, 316); */
+}
